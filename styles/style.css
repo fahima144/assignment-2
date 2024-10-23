@@ -274,3 +274,109 @@ nav{
     margin-left: 140px;
 }
 /* Run an Extra section ended  */
+
+/* BMI section started */
+.bmi-calculator{
+    max-width: 671px;
+    margin: 0 auto;
+}
+.bmi-calculator p{
+    text-align: start;
+}
+.bmi-calculator-container{
+    height: 500px;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);;
+}
+.bmi-calculator-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bmi-calculator-chart{
+    width: 350px;
+    margin-bottom: 17px;
+}
+.bmi-calculator-chart-title{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+}
+.bmi-chart{
+    width: 310px;
+    height: 216px;
+    margin-top: 52px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    margin-left: 150px;
+}
+.bmi-chart th{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.bmi-chart th, .bmi-chart td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0, 18px;
+    text-align: left;
+}
+.bmi-chart tr{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.calculate-your-bmi{
+    min-width: 577px;
+    margin-left: 100px;
+}
+.calculate-your-bmi-info{
+    margin-bottom: 30px;
+}
+.calculate-your-bmi-title{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.calculate-your-bmi-info p{
+    text-align: start;
+}
+.calculate-your-bmi-input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.calculate-your-bmi-input input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+.calculate-your-bmi-input input[type="text"], .calculate-your-bmi-input select{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.calculate-your-bmi-input select{
+    grid-column: span 1;
+}
+.calculate-your-bmi-input option{
+    color: black;
+}
+#select-an-activity-factor{
+    height: 50px;
+    grid-column: span 2;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+.calculate-your-bmi-input > .btn{
+    margin-top: 34px;
+}
+/* BMI section ended */
