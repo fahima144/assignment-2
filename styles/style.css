@@ -380,3 +380,46 @@ nav{
     margin-top: 34px;
 }
 /* BMI section ended */
+
+/* Meet Our Team started */
+.our-team-header{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-team-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    background: var(--secondary-background);
+    padding: 3%;
+    border-radius: 18px;
+    margin-top: 50px;
+}
+.our-team-member-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0000004b;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end
+}
+.our-team-member-info h3{
+    font-size: 2.2rem;
+}
+.our-team-members{
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.our-team-members img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Meet Our Team ended */
