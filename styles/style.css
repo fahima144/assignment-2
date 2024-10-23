@@ -246,3 +246,31 @@ nav{
     letter-spacing: 0.3px;
     color: rgba(255, 255, 255, 0.5);
 }
+/* Change Your Habits ended */
+
+/* Run an Extra section started */
+.run-an-extra-container{
+    max-width: 1060px;
+    min-height: 371px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.run-an-extra-content{
+    max-width: 40%;
+    margin: 40px 55px;
+}
+.run-an-extra-content p{
+    margin-bottom: 38px;
+    text-align: start;
+}
+.run-an-extra-img img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    margin: 30px;
+    margin-left: 140px;
+}
+/* Run an Extra section ended  */
