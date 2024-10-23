@@ -1,22 +1,27 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+/* universal selector */
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
 
 body{
-    font-family: "Inter", serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background-color: black;
+    color: white;
 }
-
-/* shared style started */
-.primary-color{
-    color: rgb(230, 83, 60);
+section{
+    min-width: 1440px;
+    margin: 100px auto;
+    border: 1px solid red;
 }
-.btn-primary{
+.btn{
     width: 224px;
     height: 54px;
     border-radius: 42px;
@@ -28,99 +33,157 @@ body{
     letter-spacing: 0px;
     color: white;
 }
-/* shared style ended */
 
-/* header section started */
+/* navbar section */
 header{
-    height: 750px;
-    border: 1px solid red;
-    position: relative;
-    background-color: linear-gradient(0deg, rgb(0, 0, 0, 1) 7%,rgba(48, 48, 48, 1) 100%);
+    background-image: linear-gradient(0deg, rgb(31, 31, 31) 0%, rgba(0,0,0,1) 100%);
 }
-header div{
+nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo{
-    margin-left: 135px;
-    padding: 30px;
-}
-.title{
+    width: 280px;
+    margin: 50px 0;
     font-weight: 800;
     font-size: 36px;
     font-style: italic;
-    right: 20px;
+    color: rgb(230, 83, 60);
 }
-.nav{
-    position: absolute;
-    top: 40px;
-    right: 0;
-    margin-right: 100px;
-}
-.nav ul{
-    list-style: none;
+.navbar{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-
+    padding: 4px;
+    gap: 47px;
+    margin-left: 500px;
 }
-.nav-item{
-    float: left;
-    padding: 20px;
-}
-.nav-item a{
-    color: white;
+.navbar li a{
     font-size: 18px;
     font-weight: 400;
-    text-decoration: none;
+    line-height: 120%;
+    margin: 12px 0;
+    color: white;
 }
-.nav-item span{
-    width: 92px;
-    height: 46px;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 20px 8px 20px;
-    border-radius: 70px;
+.home{
+    border-radius: 46px;
     background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    padding: 8px 20px;
 }
+.menu-bar{
+    display: none;
+    color: rgb(255, 255, 255);
+}
+/* navbar section end */
 
-.banner-section-container{
-    max-width: 1440px;
+/* banner section */
+.header-section{
+    max-width: 1060px;
     margin: 0 auto;
+}
+.banner-container{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .banner-content{
-    height: 439px;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-}
-.banner-title{
-    font-weight: 900;
-    font-size: 78px;
+    width: 50%;
     color: white;
-    margin-top: 20px;
 }
-.shape{
-    font-family: "Great Vibes", cursive;
-    font-weight: 400;
+.banner-content h3{
     font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 28px;
 }
-.banner-description{
-    font-weight: 400;
+#shape{
+    font-family: "Dancing Script", cursive;
+}
+.banner-content p{
     font-size: 16px;
-    margin-top: 2px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
     color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 28px;
 }
-.btn{
-    display: flex;
-    gap: 30px;
-}
-.d-btn{
+.btn-2{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
     background-color: transparent;
 }
-.button-icon{
-    
+.banner-right-side{
+    position: relative;
+    width: fit-content;
 }
+.banner-right-side img{
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-right{
+    top: 120px;
+    right: -60px;
+}
+.bottom-left{
+    bottom: 43px;
+    left: -115px;
+}
+.sticker{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+}
+.sticker-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sticker i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    color: white;
+}
+.sticker h3{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.sticker-2 h3{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.sticker p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+/* banner section end */
+
