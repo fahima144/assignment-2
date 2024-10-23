@@ -4,5 +4,115 @@
     }
     .menu-bar i{
         font-size: 35px;
+        margin-right: 20px;
     }
+    .navbar{
+        display: none;
+    }
+    section{
+        margin: 80px 25px;
+    }
+    .banner-container,
+    .run-an-extra-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner-content {
+        width: auto;
+    }
+
+    .header-section {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .banner-right-side h3 {
+        font-size: 2.2rem;
+    }
+
+    .banner-right-side p {
+        font-size: 0.9rem;
+    }
+
+    .top-right {
+        top: 50px;
+        right: -30px;
+    }
+
+    .bottom-left {
+        bottom: 200px;
+        left: -30px;
+    }
+
+    .change-your-habits-card-container,
+    .our-team-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    ..run-an-extra-content {
+        max-width: 100%;
+    }
+
+    .run-an-extra-img img {
+        width: auto;
+    }
+
+    .calculate-your-bmi-container {
+        height: auto;
+    }
+
+    .bmi-content {
+        margin: 54px 20px;
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .calculate-your-bmi-content {
+        font-size: 1.2rem;
+    }
+
+    .bmi-chart {
+        margin: 0;
+    }
+
+    .bmi-chart tr {
+        font-size: 1rem;
+    }
+
+    .calculate-your-bmi {
+        margin-top: 54px;
+        margin-left: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer-item {
+        flex-direction: column;
+    }
+
+    footer hr {
+        width: 80%;
+    }
+
+    .footer-logo {
+        width: auto;
+        margin: 0 49px;
+    }
+
+    .logo {
+        font-size: 5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+
+    footer ul h4 {
+        margin-top: 49px;
+    }
+
 }
