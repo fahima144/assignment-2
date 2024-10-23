@@ -1,7 +1,126 @@
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+body{
+    font-family: "Inter", serif;
     margin: 0;
     padding: 0;
-    font-family: "Inter", serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* shared style started */
+.primary-color{
+    color: rgb(230, 83, 60);
+}
+.btn-primary{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: white;
+}
+/* shared style ended */
+
+/* header section started */
+header{
+    height: 750px;
+    border: 1px solid red;
+    position: relative;
+    background-color: linear-gradient(0deg, rgb(0, 0, 0, 1) 7%,rgba(48, 48, 48, 1) 100%);
+}
+header div{
+    display: flex;
+}
+.logo{
+    margin-left: 135px;
+    padding: 30px;
+}
+.title{
+    font-weight: 800;
+    font-size: 36px;
+    font-style: italic;
+    right: 20px;
+}
+.nav{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-right: 100px;
+}
+.nav ul{
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+}
+.nav-item{
+    float: left;
+    padding: 20px;
+}
+.nav-item a{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.nav-item span{
+    width: 92px;
+    height: 46px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+    border-radius: 70px;
+    background: rgb(230, 83, 60);
+}
+
+.banner-section-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner-content{
+    height: 439px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 78px;
+    color: white;
+    margin-top: 20px;
+}
+.shape{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 78px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 2px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    display: flex;
+    gap: 30px;
+}
+.d-btn{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    background-color: transparent;
+}
+.button-icon{
+    
 }
